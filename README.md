@@ -12,7 +12,7 @@ Designed for consultants, analysts, and strategists who need to visualize market
 1. 📥 **Download the latest `.xlsm` file from the Releases page**:  
 👉 [Releases](https://github.com/starzdata/mekkochart-excel/releases)
 
-2. 📊 **Open the file in Excel (Windows recommended)**  
+2. 📊 **Open the file in Excel**  
 3. ✅ **Enable macros** when prompted  
 4. 🧮 **Paste your data** into the input table (categories in rows, segments in columns)  
 5. 🔘 Click the `Create Mekko Chart` button  
