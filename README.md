@@ -3,6 +3,8 @@
 **An all-in-one Excel tool to create Mekko (Marimekko) charts – no coding required.**  
 Designed for consultants, analysts, and strategists who need to visualize market breakdowns or segmented structures with impact.
 
+![Image](https://github.com/user-attachments/assets/89aa6ea1-5658-42e4-bbcd-cbcafea491cb)
+
 ---
 
 ## 🚀 How it works
