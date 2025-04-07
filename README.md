@@ -6,7 +6,7 @@ Designed for consultants, analysts, and strategists who need to visualize market
 ![Image](https://github.com/user-attachments/assets/89aa6ea1-5658-42e4-bbcd-cbcafea491cb)
 
 <p align="center">
-  <img src="[https://your-cdn-link.gif](https://screen.studio/share/2rMBJDsp)" width="400" alt="Mekko chart demo">
+  <img src="https://github.com/user-attachments/assets/89aa6ea1-5658-42e4-bbcd-cbcafea491cb" width="400" alt="Mekko chart demo">
 </p>
 
 
