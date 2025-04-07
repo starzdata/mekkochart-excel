@@ -1,36 +1,55 @@
-# Mekko Chart Generator for Excel
+# 📊 Starzdata Mekko Chart Creator for Excel
 
-This VBA module provides a solution for generating Mekko (Marimekko) charts directly within Excel. It processes a user-selected data table, computes sub-segment totals, and renders a dynamic chart using Excel shapes. Compatible with both Windows and macOS versions of Excel. Key features include:
+**An all-in-one Excel tool to create Mekko (Marimekko) charts – no coding required.**  
+Designed for consultants, analysts, and strategists who need to visualize market breakdowns or segmented structures with impact.
 
-- **Data Processing:** Reads your selected table (including headers), calculates totals and sub-segment values, and sorts categories in descending order.
-- **User Configuration:** Prompts for chart title, maximum number of categories (rows), and whether to display percentages.
-- **Dynamic Chart Rendering:** Creates a new worksheet, draws the chart with color-coded sub-segments, builds a legend, and aggregates excess data into an "Other" category.
-- **Custom Visuals:** Automatically extracts colors from the input data for both fills and fonts, ensuring consistency and visual appeal.
+---
 
-## Installation and Usage
+## 🚀 How it works
 
-1. **Import the Module:** Open the VBA editor in Excel:
-   - Windows: Press `ALT + F11`
-   - Mac: Press `FN + Option/Alt + F11` or `FN + ⌥ + F11`
-   Then import this module into your workbook.
-2. **Prepare Your Data:** Ensure your table is organized with headers in the first row and category labels in the first column.
-3. **Select Your Data:** Highlight the entire table (headers included).
-4. **Run the Macro:** Execute the `CreateMekkoChart` macro:
-   - Windows: Press `ALT + F8`, select `CreateMekkoChart`, and click "Run"
-   - Mac: Go to Tools > Macro > Macros or press `⌥ + F8`, select `CreateMekkoChart`, and click "Run"
-5. **Follow Prompts:** Input the chart title, set the maximum number of categories, and decide if you want percentages displayed.
-6. **View Your Chart:** A new worksheet with your generated Mekko chart will be created automatically.
+1. 📥 **Download the latest `.xlsm` file from the Releases page**:  
+👉 [Releases](https://github.com/starzdata/mekkochart-excel/releases)
 
-## Contribution Guidelines
+2. 📊 **Open the file in Excel (Windows recommended)**  
+3. ✅ **Enable macros** when prompted  
+4. 🧮 **Paste your data** into the input table (categories in rows, segments in columns)  
+5. 🔘 Click the `Create Mekko Chart` button  
+6. 📄 A fully editable **Mekko chart** is automatically generated in a new sheet.
 
-Contributions are welcome! To contribute:
-- Fork the repository.
-- Make improvements, bug fixes, or add new features.
-- Submit a pull request with your changes.
-- Open issues to report bugs or suggest enhancements.
+---
 
-Please maintain consistent coding style and include comments for clarity.
+## 🧠 Key Features
 
-## License
+- Simple and intuitive interface (no VBA skills required)
+- Automatically sorts rows by descending total
+- Aggregates smaller rows into an “Other” column
+- Optional interpretation labels (emojis, tags) per cell
+- 100% Excel-native output (easily modify shapes, colors, and text)
 
-This project is licensed under the **MIT License**. This permissive license encourages collaboration by allowing anyone to use, modify, and distribute the code with minimal restrictions. See the `LICENSE` file for full details.
+---
+
+## ✨ For advanced Excel users
+
+The project also includes a standalone **VBA module** (`MekkoChartGenerator.bas`) that allows power users to generate Mekko charts manually via the VBA editor.  
+It offers more granular control through selected ranges.  
+👉 Check the `MekkoChartGenerator.bas` file for details.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+You are free to use, modify, and share it.
+
+---
+
+## 🙌 About
+
+Created by [Starzdata](https://www.starzdata.com) – the platform that helps consultants move faster with smart, frugal tools.
+
+---
+
+## 📬 Feedback or ideas?
+
+- Open an [issue](https://github.com/starzdata/mekkochart-excel/issues)
+- Or get in touch via [starzdata.com](https://www.starzdata.com)
